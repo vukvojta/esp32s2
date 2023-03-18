@@ -1,7 +1,0 @@
-. esp-idf/export.sh
-cd esp-idf/examples/get-started/hello_world/
-idf.py set-target esp32s2
-idf.py menuconfig # configure
-idf.py build
-idf.py -p /dev/ttyACM0 flash
-idf.py -p /dev/ttyACM0 monitor # connect
